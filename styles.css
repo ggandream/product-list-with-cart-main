@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "RedHat Bold";
+  src: url("assets/fonts/static/RedHatText-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RedHat Regular";
+  src: url("assets/fonts/static/RedHatText-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(13, 31%, 94%);
+  img {
+    width: 250px;
+  }
+}
+
+.product-list-with-cart {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.product-list-title {
+  margin-block: 20px;
+  font-family: "RedHat Bold", "Franklin Gothic Medium", Arial, sans-serif;
+  font-weight: 700;
+  color: hsl(14, 65%, 9%);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex: 1;
+  gap: 10px;
+}
+
+.product-card {
+  padding: 6px;
+  margin-bottom: 10px;
+  font-family: "RedHat Regular", sans-serif;
+  font-weight: 500;
+
+  header > span {
+    color: hsl(12, 20%, 44%);
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  header > h3 {
+    color: hsl(14, 65%, 9%);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  button > span > img {
+    width: 20px;
+  }
+}
+
+.product-card-img {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  img {
+    border-radius: 10px;
+  }
+
+  button {
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1.5px solid hsl(7, 20%, 60%);
+    background-color: hsl(20, 50%, 98%);
+  }
+}

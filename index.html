@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="product-list-with-cart">
+      <div class="product-list-container">
+        <header class="product-list-title"><h1>Desserts</h1></header>
+        <section class="product-grid">
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-waffle-desktop.jpg"
+                alt="A pile of waffles with fresh strawberries on top"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Waffle</span>
+              <h3>Desserts Waffle with Berries</h3>
+            </header>
+            <span>6.50</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-creme-brulee-desktop.jpg"
+                alt="Vanilla bean creme brulee"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Crème Brûlée</span>
+              <h3>Vanilla Bean Crème Brûlée</h3>
+            </header>
+            <span>7.00</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-macaron-desktop.jpg"
+                alt="five macaron cookies in different colors"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Macaron</span>
+              <h3>Mix of Five Macaron</h3>
+            </header>
+            <span>8.00</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-tiramisu-desktop.jpg"
+                alt="a square pice of tiramisu cake with fresh raspberries on top"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Tiramisu</span>
+              <h3>Classic Tiramisu</h3>
+            </header>
+            <span>5.50</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-baklava-desktop.jpg"
+                alt="three pieces of baklava (turkish pastry) filled with pistachio"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Baklava</span>
+              <h3>Pistachio Baklava</h3>
+            </header>
+            <span>4.00</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-meringue-desktop.jpg"
+                alt="a piece of lemon meringue pie with whipped cream on top"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Pie</span>
+              <h3>Lemon Meringue Pie</h3>
+            </header>
+            <span>5.00</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-cake-desktop.jpg"
+                alt="an small red velvet cake filled with strawberries and cream and an strawberry on top for decoration"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Cake</span>
+              <h3>Red Velvet Cake</h3>
+            </header>
+            <span>4.50</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-brownie-desktop.jpg"
+                alt="a chocolate brownie with salted caramel and a vanilla ice cream ball on top"
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Brownie</span>
+              <h3>Salted Caramel Brownie</h3>
+            </header>
+            <span>4.50</span>
+          </article>
+
+          <article class="product-card">
+            <div class="product-card-img">
+              <img
+                src="assets/images/image-panna-cotta-desktop.jpg"
+                alt="a glass cup filled with vanilla panna cotta (classic italian desser of sweetened cream)."
+              />
+              <button>
+                <span><img src="assets/images/icon-add-to-cart.svg" /></span>Add
+                to Cart
+              </button>
+            </div>
+            <header>
+              <span>Panna Cotta</span>
+              <h3>Vanilla Panna Cotta</h3>
+            </header>
+            <span>6.50</span>
+          </article>
+        </section>
+      </div>
+
+      <section class="cart">
+        <header>
+          <h2>Your Cart (<!-- Quantity -->)</h2>
+        </header>
+        <div>
+          <img src="" alt="" />
+          <p>Your added items will appear here</p>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
