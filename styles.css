@@ -27,6 +27,7 @@ body {
   align-content: center;
   align-items: flex-start;
   gap: 40px;
+  margin-top: 60px;
 }
 
 .product-list-title {
@@ -48,6 +49,11 @@ body {
   margin-bottom: 10px;
   font-family: "RedHat Regular", sans-serif;
   font-weight: 500;
+
+  header {
+    display: block;
+    margin-top: 30px;
+  }
 
   header > span {
     color: hsl(12, 20%, 44%);
@@ -71,17 +77,57 @@ body {
   flex-direction: column;
   flex: 1;
   align-items: center;
+  position: relative;
+
   img {
     border-radius: 10px;
   }
 
   button {
     padding: 8px 20px;
+
     display: flex;
+    gap: 8px;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
     border: 1.5px solid hsl(7, 20%, 60%);
     background-color: hsl(20, 50%, 98%);
+
+    position: absolute;
+    bottom: -20px;
+
+    cursor: pointer;
+  }
+}
+
+.cart {
+  background-color:hsl(20, 50%, 98%);
+  padding: 25px;
+  border-radius: 10px;
+  width: 380px;
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(12, 20%, 44%);
+    font-family: "RedHat Regular", sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    color: hsl(14, 86%, 42%);
+    font-family: "RedHat Bold", "Franklin Gothic Medium", Arial, sans-serif;
+  }
+
+  img{
+    width: 150px;
+    padding: 20px;
+    margin-top: 20px;
   }
 }
